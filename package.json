@@ -14,6 +14,7 @@
     "gatsby-theme-blog": "^1.2.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-pose": "^4.0.10",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "typography-theme-funston": "^0.16.19"

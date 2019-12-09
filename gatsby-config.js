@@ -13,9 +13,9 @@ module.exports = {
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog`,
+    title: `Cloud Trails`,
     author: `Rohit Gupta`,
-    description: `My site description...`,
+    description: `The blog about cloud technologies`,
     social: [
       {
         name: `linkedin`,
