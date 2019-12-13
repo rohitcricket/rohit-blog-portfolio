@@ -22,15 +22,15 @@ const Box = posed.div({
 
 export default () => (
   <Fragment>
-    <Jumbotron>
-      <h1>My Portfolio</h1>
-      <p>
+    <Jumbotron style = {{ backgroundColor : '#293542' }}>
+      <h1 style = {{ color : 'orange' }}>My Portfolio</h1>
+      <p style = {{ color : 'orange' }}>
         Hello, world! This page showcases a few projects I have done. 
         I am a certified AWS Solutions Architect who can take your cloud 
         journey from queasy to fighting fit…
       </p>
-      <p> If you want to hire me to help you work with projects, 
-        please contact me at rohit_bmw@yahoo.com.
+      <p style = {{ color : 'orange' }}> If you want to hire me to help you work with projects, please email me at: &nbsp;
+        <a href="mailto:rohitcricket@gmail.com">rohitcricket@gmail.com</a>
       </p>
     </Jumbotron>
 {/*     <div style={{textAlign: "center"}}>
@@ -48,8 +48,7 @@ export default () => (
         <Card.Body>
           <Card.Title>Classify Fashion Items</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            This project classifies 70,000 Fashion Items Using TensorFlow 2.0.
           </Card.Text>
           <a href="https://github.com/rohitcricket/TensorFlow2.0-FashionClassification">Github</a>
         </Card.Body>
@@ -66,8 +65,7 @@ export default () => (
         <Card.Body>
           <Card.Title>Detect Traffic Signs</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            This project detects traffic signs for your self-driving car using LeNet network and Tensorflow 2.0.
           </Card.Text>
           <a href="https://github.com/rohitcricket/TensorFlow2.0-DetectTrafficSigns">Github</a>
         </Card.Body>
@@ -85,8 +83,7 @@ export default () => (
         <Card.Body>
           <Card.Title>Art with AI</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            This project creates art using computer vision algorithm created by Alexander Mordvintsev from Google and Tensorflow 2.0.
           </Card.Text>
           <a href="https://github.com/rohitcricket/TensorFlow2.0-DreamDeepArtWithAI">Github</a>
         </Card.Body>
@@ -103,8 +100,7 @@ export default () => (
         <Card.Body>
           <Card.Title>Detect Diabetes with AI</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            This project predicts whether or not a patient has diabetes, based on given features/diagnostic measurements.
           </Card.Text>
           <a href="https://github.com/rohitcricket/TensorFlow2.0-DetectDiabetes">Github</a>
         </Card.Body>
@@ -120,8 +116,7 @@ export default () => (
         <Card.Body>
           <Card.Title>Talk like Darth Vader</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+          This is an iPhone app that allows users to record their voice and will then modulate the recorded audio to sound like a Chipmunk or Darth Vader. 
           </Card.Text>
           <a href="https://github.com/rohitcricket/iOSNanodegreePitchPerfect">Github</a>
         </Card.Body>
@@ -138,8 +133,8 @@ export default () => (
         <Card.Body>
           <Card.Title>Blockchain Energy Network</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+          A key application of Blockchain being currently explored is a Decentralized Energy network.
+          The network consists of Residents, Banks and Utility Companies.
           </Card.Text>
           <a href="https://github.com/rohitcricket/IBMBlockChainDecentralizedEnergyNetworkApp">Github</a>
         </Card.Body>
