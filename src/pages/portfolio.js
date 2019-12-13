@@ -116,7 +116,7 @@ export default () => (
         <Card.Body>
           <Card.Title>Talk like Darth Vader</Card.Title>
           <Card.Text>
-          This is an iPhone app that allows users to record their voice and will then modulate the recorded audio to sound like a Chipmunk or Darth Vader. 
+          This is an iPhone app that allows users to record their voice and will then modulate the recorded audio to sound like Darth Vader. 
           </Card.Text>
           <a href="https://github.com/rohitcricket/iOSNanodegreePitchPerfect">Github</a>
         </Card.Body>
@@ -134,7 +134,6 @@ export default () => (
           <Card.Title>Blockchain Energy Network</Card.Title>
           <Card.Text>
           A key application of Blockchain being currently explored is a Decentralized Energy network.
-          The network consists of Residents, Banks and Utility Companies.
           </Card.Text>
           <a href="https://github.com/rohitcricket/IBMBlockChainDecentralizedEnergyNetworkApp">Github</a>
         </Card.Body>
